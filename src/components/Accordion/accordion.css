@@ -1,0 +1,44 @@
+.accordion * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.accordion {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.accordion .acc-item {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.accordion .acc-item > * {
+  padding: 1rem;
+}
+
+.accordion .acc-item .acc-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.accordion .acc-item.active .acc-header {
+  border-top: 3px solid #15c715;
+}
+
+.accordion .acc-header .num {
+  font-weight: 200;
+  color: #a8a8a8;
+  margin-right: 10px;
+}
+
+.accordion .acc-header .icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-weight: 800;
+}

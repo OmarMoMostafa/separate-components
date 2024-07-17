@@ -1,5 +1,11 @@
+import Accordion from "./components/Accordion/Accordion";
+
 function App() {
-  return <>hello react from vite</>;
+  return (
+    <>
+      <Accordion />
+    </>
+  );
 }
 
 export default App;
