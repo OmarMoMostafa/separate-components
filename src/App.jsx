@@ -1,9 +1,9 @@
-import Accordion from "./components/Accordion/Accordion";
+import TipCalc from "./components/TipCalc/TipCalc";
 
 function App() {
   return (
     <>
-      <Accordion />
+      <TipCalc />
     </>
   );
 }
